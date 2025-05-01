@@ -1,0 +1,108 @@
+:root {
+	--primary: #6366F1			; /* Indigo (main accent color) */
+	--secondary: #2a2e37	; /* Dark gray (backgrounds, navbar, hero) */
+	--text-light: #ffffff;
+}
+  
+  /* Mobile dropdown overlay fix */
+@media (max-width: 991.98px) {
+	.navbar-collapse {
+	  position: absolute;
+	  top: 100%;
+	  left: 0;
+	  width: 100%;
+	  background-color: var(--secondary);
+	  z-index: 999;
+	  padding: 1rem;
+	  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	}
+}
+  
+/* Navbar and Brand */
+.navbar-custom {
+	background-color: var(--secondary);
+}
+.navbar-brand {
+	color: var(--text-light) !important;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+}
+  
+/* Buttons */
+.nav-btn {
+	color: var(--text-light);
+	border: 1px solid var(--text-light);
+	transition: all 0.2s ease;
+}
+.nav-btn:hover {
+	background-color: var(--primary);
+	border-color: var(--primary);
+	color: white;
+}
+.btn-accent {
+	background-color: var(--primary);
+	color: white;
+	font-weight: 500;
+}
+.btn-accent:hover {
+	background-color: #4f46e5; /* slightly darker indigo */
+	color: white;
+}
+  
+/* Navbar toggler */
+.navbar-toggler {
+	border-color: var(--text-light);
+}
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+  
+/* Backgrounds */
+.bg-hero {
+	background-color: var(--secondary);
+}
+.bg-banner {
+	background-color: var(--primary);
+}
+ 
+.sticky-bottom-banner {
+	position: fixed;
+	bottom: 1rem;
+	left: 1rem;
+	right: 1rem;
+	background-color: var(--primary);
+	color: var(--text-light);
+	border-radius: 1rem;
+	z-index: 1050;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+  
+.card {
+	border-radius: 1rem;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+  
+.card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+  
+.card-title {
+	font-size: 1.25rem;
+	font-weight: 600;
+	margin-bottom: 0.75rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+  
+.card-body {
+	padding: 1.5rem;
+}
+
+.text-color-primary {
+	color: var(--primary);
+}
+.text-secondary {
+	color: var(--secondary);
+}
