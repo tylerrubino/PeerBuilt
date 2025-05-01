@@ -1,8 +1,13 @@
 :root {
-	--primary: #6366F1			; /* Indigo (main accent color) */
-	--secondary: #2a2e37	; /* Dark gray (backgrounds, navbar, hero) */
+	/* --primary: #6366F1;  */
+	/* --primary: #284b63; */
+	--primary: #007ea7;
+	/* --secondary: #353535; */
+	--secondary: #242423;
+	/* --secondary: #2a2e37;  */
 	--text-light: #ffffff;
 }
+
   
   /* Mobile dropdown overlay fix */
 @media (max-width: 991.98px) {
@@ -45,7 +50,7 @@
 	font-weight: 500;
 }
 .btn-accent:hover {
-	background-color: #4f46e5; /* slightly darker indigo */
+	background-color: #3c6e71; /* slightly darker indigo */
 	color: white;
 }
   
@@ -103,6 +108,6 @@
 .text-color-primary {
 	color: var(--primary);
 }
-.text-secondary {
+.text-color-secondary {
 	color: var(--secondary);
 }

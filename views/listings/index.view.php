@@ -3,9 +3,6 @@
 <!-- Navbar -->
 <?= loadPartial('navbar'); ?>
 
-<!-- Showcase -->
-<?= loadPartial('showcase-search'); ?>
-
 <!-- Banner CTA -->
 <?= loadPartial('top-banner'); ?>
 
@@ -13,7 +10,7 @@
 <!-- Featured Projects Section -->
 <section class="py-5 bg-light">
     <div class="container">
-        <h2 class="text-center fw-bold mb-4 border-bottom pb-2 text-dark">Featured Projects</h2>
+        <h2 class="text-center fw-bold mb-4 border-bottom pb-2 text-dark">Recent Projects</h2>
         <div class="row g-4">
             <!-- Project Card -->
             <div class="col-md-4">
@@ -88,14 +85,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Show All Projects Button -->
-        <div class="text-center mt-4">
-            <a href="/listings" class="btn btn-accent">
-                <i class="fa fa-arrow-circle-right me-2"></i>
-                View All Projects
-            </a>
         </div>
     </div>
 </section>
