@@ -9,7 +9,6 @@
 <!-- Banner CTA -->
 <?= loadPartial('top-banner'); ?>
 
-
 <!-- Featured Projects Section -->
 <section class="py-5 bg-light">
     <div class="container">

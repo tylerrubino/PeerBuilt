@@ -1,7 +1,7 @@
 :root {
 	/* --primary: #6366F1;  */
 	/* --primary: #284b63; */
-	--primary: #007ea7;
+	--primary: #0566c8;
 	/* --secondary: #353535; */
 	--secondary: #242423;
 	/* --secondary: #2a2e37;  */
@@ -50,7 +50,7 @@
 	font-weight: 500;
 }
 .btn-accent:hover {
-	background-color: #3c6e71; /* slightly darker indigo */
+	background-color: #003459; /* slightly darker indigo */
 	color: white;
 }
   
@@ -110,4 +110,18 @@
 }
 .text-color-secondary {
 	color: var(--secondary);
+}
+
+.btn-secondary-accent {
+	background-color: var(--secondary);
+	color: var(--text-light);
+	/* border: 1px solid var(--text-light); */
+	transition: all 0.2s ease;
+}
+
+.btn-secondary-accent:hover {
+	background-color: #003459;
+	color: white;
+	border: 1px solid var(--text-light);
+	/* border-color: var(--primary); */
 }
