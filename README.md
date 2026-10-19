@@ -1,5 +1,7 @@
 # PeerBuilt
 
+**Peer Driven. Project Powered.**
+
 PeerBuilt is a student project collaboration prototype. It is designed to help students discover projects, meet teammates across schools, and build work they can show in a portfolio.
 
 The repository currently contains the foundation of a PHP web app: page layouts, a small custom router, and a MySQL access layer. The project cards are example content while the listing and collaboration workflows are still in development.
@@ -14,6 +16,16 @@ The repository currently contains the foundation of a PHP web app: page layouts,
 | Other paths | Custom 404 page. |
 
 The project uses **PHP**, **MySQL via PDO**, **Bootstrap 5**, **Font Awesome**, and custom CSS. Routes in `routes.php` map requests to controllers, which load views and shared page partials.
+
+## Preview the interface
+
+With PHP CLI installed, run this command from a local checkout's repository root:
+
+```bash
+php -S localhost:8000 -t public
+```
+
+Open [the project listings](http://localhost:8000/listings) or [the project creation form](http://localhost:8000/listings/create). These pages render without a database connection. The home page requires the MySQL setup below, and the form does not save submissions yet.
 
 ## Run locally
 
